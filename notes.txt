@@ -1,0 +1,8 @@
+1- created by microsoft to address shortcoming of javascript.
+2-build on top of javascript
+3-Benefits = static typing, code completion,refactoring,shorthand notations
+4-javascript with type checking
+
+***Installation Command****
+npm i -g typescript
+tsc-v (check version)
