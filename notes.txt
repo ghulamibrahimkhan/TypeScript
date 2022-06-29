@@ -6,3 +6,19 @@
 ***Installation Command****
 npm i -g typescript
 tsc-v (check version)
+
+
+**********Configure typescript compiler*
+1- tsc --init (Write in terminal)
+2- cntrl+space to see/change es available version
+3-----In "Modules" section
+---"rootDir": "./src" (uncoment rootDir and give directory where you want to write ts src code)
+
+4-----In "Emit" section
+----"outdir": "./dist" (uncomment outdir and give directory name where you want to save output in JS)
+----"removeComments":true (SO generated js code gona be shorter)
+----"noEmitOnError":true (ts not gona compile into js when there is an error)
+
+***********Debug*********
+1- In "Emit" we enable "sourceMap"
+2- In launch.json under "program" write "preLaunchTask":"tsc: build - tsconfig.json",
