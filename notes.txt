@@ -22,3 +22,9 @@ tsc-v (check version)
 ***********Debug*********
 1- In "Emit" we enable "sourceMap"
 2- In launch.json under "program" write "preLaunchTask":"tsc: build - tsconfig.json",
+
+
+***********TypeChecking********
+1- "noImplicitReturns": true,
+2 -"noUnusedParameters": true,   
+3 -"noUnusedLocals": true,
