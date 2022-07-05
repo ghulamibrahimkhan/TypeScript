@@ -39,3 +39,18 @@
 // let xyz :number;
 // xyz = calculateTax(10000)
 // console.log(xyz);
+
+// Objects
+
+let employee: {
+    readonly id: number, //
+    // we can make some propety optional by. name?:string   "?"
+     readonly name: string,
+     retire: (date: Date) => void
+} = {
+    id: 1,
+    name: "Ibrahim",
+    retire: (date : Date)=>{
+        console.log(date);   
+    }
+}
